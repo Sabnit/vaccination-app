@@ -13,7 +13,7 @@ a {
 }
 
 .container {
-  background: url(/assets/img/hero-bg.svg), lightgray;
+  background: url(./assets/img/hero-bg.svg), lightgray;
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -24,6 +24,7 @@ a {
 .container .hero-container {
   max-width: 1440px;
   padding: 40px 70px 0px 70px;
+  margin: 0 auto;
 }
 .container .header {
   width: 100%;
@@ -136,6 +137,7 @@ a {
 
 .details-container .details-elements {
   padding: 60px 70px 80px 70px;
+  margin: 0 auto;
 }
 .details-container .details-form {
   padding-bottom: 30px;
@@ -227,15 +229,17 @@ a {
 }
 
 .vaccine-registration {
-  background: url(/assets/img/get-your-vaccinated-bg.png), lightgray;
+  background: url(./assets/img/testimonial-bg.png);
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #0b153c;
+  background-color: lightgray;
   padding-bottom: 40px;
 }
 .vaccine-registration .form-article {
   padding: 40px 70px 30px 70px;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 .vaccine-registration .form-article-elements {
   display: flex;
@@ -436,7 +440,7 @@ a {
   text-align: center;
   position: absolute;
   top: -198px;
-  left: 212px;
+  left: 20%;
 }
 .footer .upperdiv p {
   margin: 0;
@@ -596,7 +600,7 @@ a {
 }
 
 .details-container {
-  background: url(/assets/img/database-bg.svg), lightgray;
+  background: url(./assets/img/database-bg.svg), lightgray;
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -777,8 +781,13 @@ a {
   color: #17c2ec;
 }
 
-.symptoms-container {
+.symptoms {
   background-color: rgb(11, 21, 60);
+}
+
+.symptoms-container {
+  width: 1440px;
+  margin: 0 auto;
 }
 .symptoms-container .symptoms-upper-text p {
   font-weight: 700;
@@ -817,8 +826,15 @@ a {
 }
 
 .testimonials {
-  background-color: #dbd9cf;
-  background-image: url("./assets/img/testimonial-bg.png");
+  background: url(./assets/img/testimonial-bg.png);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: lightgray;
+}
+.testimonials-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .testimonials .testimonials-upper {
   text-align: center;
@@ -879,6 +895,10 @@ a {
 .footer {
   background-color: rgb(11, 21, 60);
   color: white;
+}
+.footer-wrapper {
+  margin: 0 auto;
+  max-width: 1440px;
 }
 .footer .footer-nav-bar a {
   font-weight: 500;
