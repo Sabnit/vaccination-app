@@ -226,7 +226,7 @@ a {
   padding-top: 30px;
 }
 
-.letsee {
+.vaccine-registration {
   background: url(/assets/img/get-your-vaccinated-bg.png), lightgray;
   background-position: 50%;
   background-size: cover;
@@ -234,47 +234,47 @@ a {
   background-color: #0b153c;
   padding-bottom: 40px;
 }
-.letsee .form-article {
+.vaccine-registration .form-article {
   padding: 40px 70px 30px 70px;
 }
-.letsee .form-article-elements {
+.vaccine-registration .form-article-elements {
   display: flex;
   flex-direction: column;
   position: relative;
 }
-.letsee .form-article-up {
+.vaccine-registration .form-article-up {
   padding-bottom: 40px;
   display: flex;
   align-items: flex-start;
 }
-.letsee .form-article-mid {
+.vaccine-registration .form-article-mid {
   padding-top: 40px;
   padding-right: 5px;
   position: absolute;
   top: 0;
   right: 0;
 }
-.letsee .form-picture-back {
+.vaccine-registration .form-picture-back {
   position: relative;
 }
-.letsee .form-picture-front {
+.vaccine-registration .form-picture-front {
   position: absolute;
   left: 0;
   top: 70px;
 }
-.letsee .form-picture-front-word {
+.vaccine-registration .form-picture-front-word {
   position: absolute;
   width: 116px;
   top: 30px;
   left: 130px;
 }
-.letsee .form-picture-front-view {
+.vaccine-registration .form-picture-front-view {
   position: absolute;
   left: 90px;
   top: 440px;
 }
 
-.letsee .form-picture-front-view a {
+.vaccine-registration .form-picture-front-view a {
   border-radius: 10px;
   background: rgba(196, 196, 196, 0.25);
   padding: 20px;
@@ -287,55 +287,55 @@ a {
   line-height: normal;
 }
 
-.letsee .form-picture-front-virus {
+.vaccine-registration .form-picture-front-virus {
   position: absolute;
   left: -20px;
   top: -25px;
 }
-.letsee .form-article-down {
+.vaccine-registration .form-article-down {
   display: flex;
   flex-direction: column;
   width: 650px;
 }
-.letsee .form-article-down label {
+.vaccine-registration .form-article-down label {
   padding-bottom: 20px;
 }
-.letsee .form-article-down input {
+.vaccine-registration .form-article-down input {
   margin-bottom: 40px;
   padding: 20px 0 20px 30px;
 }
-.letsee .form-article-down p {
+.vaccine-registration .form-article-down p {
   margin: 0;
   padding-bottom: 20px;
 }
-.letsee .phone-field {
+.vaccine-registration .phone-field {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
 }
-.letsee .phone-input {
+.vaccine-registration .phone-input {
   position: relative;
 }
-.letsee .phone-input img {
+.vaccine-registration .phone-input img {
   position: absolute;
   top: 15px;
   left: 30px;
 }
-.letsee .phone-input #phone {
+.vaccine-registration .phone-input #phone {
   padding-left: 135px;
   margin-bottom: 0px;
 }
-.letsee .form-article-down button {
+.vaccine-registration .form-article-down button {
   padding: 20px 70px;
 }
-.letsee .form-foot {
+.vaccine-registration .form-foot {
   display: flex;
   margin-top: 40px;
   justify-content: center;
   gap: 45px;
 }
-.letsee .form-foot p {
+.vaccine-registration .form-foot p {
   padding: 0;
 }
 
@@ -713,27 +713,27 @@ a {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.letsee .form-article-up {
+.vaccine-registration .form-article-up {
   font-weight: 700;
   font-size: 48px;
   line-height: 59px;
   text-align: center;
   color: #000000;
 }
-.letsee .form-picture-front-word {
+.vaccine-registration .form-picture-front-word {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
   text-align: center;
   color: #ffffff;
 }
-.letsee .form-article-down label {
+.vaccine-registration .form-article-down label {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
   color: #000000;
 }
-.letsee .form-article-down input {
+.vaccine-registration .form-article-down input {
   border-radius: 20px;
   border: none;
   background: rgba(11, 21, 60, 0.15);
@@ -742,19 +742,19 @@ a {
   line-height: 29px;
   color: rgba(0, 0, 0, 0.25);
 }
-.letsee .form-article-down input::placeholder {
+.vaccine-registration .form-article-down input::placeholder {
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
   color: rgba(0, 0, 0, 0.25);
 }
-.letsee .form-article-down p {
+.vaccine-registration .form-article-down p {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.5);
 }
-.letsee .form-article-down button {
+.vaccine-registration .form-article-down button {
   border: none;
   background: #17c2ec;
   border-radius: 20px;
@@ -763,16 +763,16 @@ a {
   line-height: 29px;
   color: #ffffff;
 }
-.letsee .form-article-down .form-foot {
+.vaccine-registration .form-article-down .form-foot {
   margin-top: 20px;
 }
-.letsee .form-foot p {
+.vaccine-registration .form-foot p {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.5);
 }
-.letsee .form-foot .check {
+.vaccine-registration .form-foot .check {
   font-weight: 700;
   color: #17c2ec;
 }
@@ -1031,19 +1031,19 @@ a {
     gap: 25px;
     justify-content: center;
   }
-  .logo-container .logo-items #moderna {
+  .logo-container .logo-items img {
     width: 148px;
     height: 35px;
   }
-  .logo-container .logo-items #astra {
+  .logo-container .logo-items img {
     width: 148px;
     height: 42px;
   }
-  .logo-container .logo-items #pfizer {
+  .logo-container .logo-items img {
     width: 148px;
     height: 60px;
   }
-  .logo-container .logo-items #sino {
+  .logo-container .logo-items img {
     width: 148px;
     height: 30px;
   }
@@ -1143,37 +1143,37 @@ a {
     font-size: 20px;
     line-height: 24px;
   }
-  .letsee .form-article {
+  .vaccine-registration .form-article {
     padding: 40px 60px 50px 60px;
   }
-  .letsee .form-article-elements {
+  .vaccine-registration .form-article-elements {
     display: block;
     position: static;
   }
-  .letsee .form-article-up {
+  .vaccine-registration .form-article-up {
     text-align: left;
     font-size: 36px;
     line-height: 44px;
     padding-bottom: 0;
   }
-  .letsee .form-article-mid {
+  .vaccine-registration .form-article-mid {
     padding-left: 20px;
     padding-top: 65px;
     position: relative;
   }
-  .letsee .form-article-down {
+  .vaccine-registration .form-article-down {
     width: 100%;
     margin-top: 70px;
   }
-  .letsee .form-article-down label {
+  .vaccine-registration .form-article-down label {
     font-size: 20px;
     line-height: 24px;
   }
-  .letsee .form-article-down input::placeholder {
+  .vaccine-registration .form-article-down input::placeholder {
     font-size: 20px;
     line-height: 24px;
   }
-  .letsee .form-article .form-article-down button {
+  .vaccine-registration .form-article .form-article-down button {
     font-size: 20px;
   }
   .symptoms-container .symptoms-upper-text {
@@ -1679,14 +1679,14 @@ a {
   .details-container #second-link {
     padding-top: 20px;
   }
-  .letsee .form-article {
+  .vaccine-registration .form-article {
     padding: 35px 35px 40px 35px;
   }
-  .letsee .form-article-elements {
+  .vaccine-registration .form-article-elements {
     display: block;
     position: static;
   }
-  .letsee .form-article-up {
+  .vaccine-registration .form-article-up {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1695,28 +1695,28 @@ a {
     font-size: 24px;
     line-height: 29px;
   }
-  .letsee .form-article-mid {
+  .vaccine-registration .form-article-mid {
     padding-top: 40px;
     padding-left: 0;
     position: relative;
     display: flex;
     justify-content: center;
   }
-  .letsee .form-picture-back {
+  .vaccine-registration .form-picture-back {
     width: 289px;
     height: 418px;
   }
-  .letsee .injection {
+  .vaccine-registration .injection {
     width: 289px;
     height: 418px;
     top: 0;
     left: 0;
   }
-  .letsee .injection img {
+  .vaccine-registration .injection img {
     width: 100%;
     height: 100%;
   }
-  .letsee .form-picture-front-word {
+  .vaccine-registration .form-picture-front-word {
     top: 30px;
     left: 90px;
   }
@@ -1733,64 +1733,64 @@ a {
     font-weight: 700;
     line-height: normal;
   }
-  .letsee .form-picture-front-word p {
+  .vaccine-registration .form-picture-front-word p {
     font-size: 14px;
     margin: 0;
   }
-  .letsee .form-picture-front {
+  .vaccine-registration .form-picture-front {
     width: 289px;
     height: 365px;
     left: 0;
     top: 53px;
   }
-  .letsee .form-picture-front img {
+  .vaccine-registration .form-picture-front img {
     width: 100%;
     height: 100%;
   }
-  .letsee .form-picture-front-view {
+  .vaccine-registration .form-picture-front-view {
     width: 200px;
     height: 50px;
     left: 37px;
     top: 318px;
   }
-  .letsee .form-picture-front-view img {
+  .vaccine-registration .form-picture-front-view img {
     width: 100%;
     height: 100%;
   }
-  .letsee .form-picture-front-virus {
+  .vaccine-registration .form-picture-front-virus {
     width: 74px;
     height: 72px;
     left: -15px;
     top: -20px;
   }
-  .letsee .form-picture-front-virus img {
+  .vaccine-registration .form-picture-front-virus img {
     width: 100%;
     height: 100%;
   }
-  .letsee .form-article-down {
+  .vaccine-registration .form-article-down {
     width: 100%;
     margin-top: 40px;
   }
-  .letsee .form-article-down label {
+  .vaccine-registration .form-article-down label {
     font-size: 14px;
     line-height: 17px;
   }
-  .letsee .form-article-down input {
+  .vaccine-registration .form-article-down input {
     padding: 15px 0 15px 20px;
     margin-bottom: 20px;
   }
-  .letsee .form-article-down input::placeholder {
+  .vaccine-registration .form-article-down input::placeholder {
     font-size: 14px;
     line-height: 17px;
   }
-  .letsee .form-article-down p {
+  .vaccine-registration .form-article-down p {
     font-size: 14px;
     line-height: 17px;
   }
-  .letsee .form-article-down button {
+  .vaccine-registration .form-article-down button {
     font-size: 20px;
   }
-  .letsee .phone-field {
+  .vaccine-registration .phone-field {
     display: block;
     margin-bottom: 60px;
   }
@@ -1800,23 +1800,23 @@ a {
     font-size: 14px;
     line-height: 17px;
   }
-  .letsee .phone-input img {
+  .vaccine-registration .phone-input img {
     top: 10px;
     left: 20px;
   }
-  .letsee .phone-input #phone {
+  .vaccine-registration .phone-input #phone {
     padding-left: 120px;
     width: 100%;
   }
-  .letsee .form-article-down button {
+  .vaccine-registration .form-article-down button {
     padding: 17px 125px;
     font-size: 14px;
     line-height: 17px;
   }
-  .letsee .form-foot {
+  .vaccine-registration .form-foot {
     gap: 20px;
   }
-  .letsee .form-foot p {
+  .vaccine-registration .form-foot p {
     font-size: 14px;
     line-height: 17px;
   }
