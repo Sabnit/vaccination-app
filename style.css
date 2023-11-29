@@ -1,0 +1,1997 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Libre+Baskerville&family=Lobster+Two&family=Montserrat&family=Plus+Jakarta+Sans&family=Poppins:wght@500&family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  transition: ease all 0.5s;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background: url(/assets/img/hero-bg.svg), lightgray;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #0b153c;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
+.container .hero-container {
+  max-width: 1440px;
+  padding: 40px 70px 0px 70px;
+}
+.container .header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .header-menu {
+  display: none;
+}
+.container .nav {
+  display: flex;
+  gap: 25px;
+}
+.container .nav-button {
+  padding: 20px 25px 20px 25px;
+}
+.container .nav-button:hover {
+  cursor: pointer;
+}
+.container .hero {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  gap: 75px;
+}
+.container .hero-desc {
+  margin-bottom: 50px;
+}
+.container .middle-desc {
+  padding: 40px 50px 50px 0px;
+}
+.container .hero-btns {
+  display: flex;
+  gap: 20px;
+}
+.container .left-btn a {
+  padding: 20px 25px 20px 25px;
+}
+.container .right-btn a {
+  padding: 20px 25px 20px 25px;
+}
+.container .parent-pic {
+  padding: 0 40px 0 50px;
+  position: relative;
+}
+.container .child-left {
+  position: absolute;
+  left: 0;
+  top: 235px;
+}
+.container .child-right {
+  position: absolute;
+  right: 0;
+  top: 235px;
+}
+.container .child-bottom {
+  display: flex;
+  align-items: center;
+  padding: 20px 30px 20px 20px;
+  gap: 20px;
+  width: 375px;
+  position: absolute;
+  top: 520px;
+  left: 0;
+}
+.container .doc-group {
+  display: flex;
+}
+.container .article {
+  width: 100%;
+}
+.container .upper-article {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.container .lower-article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px 40px 45px 40px;
+}
+.container .article-details {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  width: 100%;
+}
+.container .individual-article {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.container .article-submit button {
+  padding: 20px 25px 20px 25px;
+}
+
+.logo-container {
+  padding: 20px 70px 10px 70px;
+}
+.logo-container .logo-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.details-container .details-elements {
+  padding: 60px 70px 80px 70px;
+}
+.details-container .details-form {
+  padding-bottom: 30px;
+}
+.details-container .details-form-title {
+  padding: 35px 0 35px 90px;
+}
+.details-container .details-form-fill-elements {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 35px 90px;
+}
+.details-container .details-form-fill-elements input {
+  padding: 20px 0 20px 20px;
+  width: 450px;
+  height: 70px;
+}
+.details-container .details-form-fill-elements button {
+  padding: 20px 40px 20px 40px;
+  width: 175px;
+  height: 70px;
+  align-items: center;
+}
+.details-container .details-form-foot {
+  margin: 0px 90px 0 90px;
+  padding: 20px 175px;
+  text-align: center;
+  align-items: center;
+}
+.details-container .details-info {
+  margin-top: 60px;
+}
+.details-container .details-info-up {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+.details-container .details-info-left {
+  width: 50%;
+}
+.details-container .details-info-right {
+  width: 50%;
+}
+.details-container .details-cards {
+  display: flex;
+  align-items: flex-end;
+  gap: 75px;
+}
+.details-container .details-cards-big {
+  width: 450px;
+  padding: 40px 55px 75px 40px;
+}
+.details-container .big-card-pic {
+  padding-bottom: 40px;
+}
+.details-container .big-card-name {
+  padding-bottom: 30px;
+}
+.details-container .details-cards-big .big-card-desc {
+  padding-bottom: 40px;
+}
+.details-container .details-cards-big .big-card-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.details-container .details-cards-small {
+  display: flex;
+  justify-content: space-between;
+  gap: 75px;
+}
+.details-container .details-cards-small-card {
+  padding: 40px 50px 60px 40px;
+  width: 350px;
+}
+.details-container .small-card-desc {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.details-container .small-card-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.details-container #second-link {
+  padding-top: 30px;
+}
+
+.letsee {
+  background: url(/assets/img/get-your-vaccinated-bg.png), lightgray;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #0b153c;
+  padding-bottom: 40px;
+}
+.letsee .form-article {
+  padding: 40px 70px 30px 70px;
+}
+.letsee .form-article-elements {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.letsee .form-article-up {
+  padding-bottom: 40px;
+  display: flex;
+  align-items: flex-start;
+}
+.letsee .form-article-mid {
+  padding-top: 40px;
+  padding-right: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.letsee .form-picture-back {
+  position: relative;
+}
+.letsee .form-picture-front {
+  position: absolute;
+  left: 0;
+  top: 70px;
+}
+.letsee .form-picture-front-word {
+  position: absolute;
+  width: 116px;
+  top: 30px;
+  left: 130px;
+}
+.letsee .form-picture-front-view {
+  position: absolute;
+  left: 90px;
+  top: 440px;
+}
+
+.letsee .form-picture-front-view a {
+  border-radius: 10px;
+  background: rgba(196, 196, 196, 0.25);
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.letsee .form-picture-front-virus {
+  position: absolute;
+  left: -20px;
+  top: -25px;
+}
+.letsee .form-article-down {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+}
+.letsee .form-article-down label {
+  padding-bottom: 20px;
+}
+.letsee .form-article-down input {
+  margin-bottom: 40px;
+  padding: 20px 0 20px 30px;
+}
+.letsee .form-article-down p {
+  margin: 0;
+  padding-bottom: 20px;
+}
+.letsee .phone-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.letsee .phone-input {
+  position: relative;
+}
+.letsee .phone-input img {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+.letsee .phone-input #phone {
+  padding-left: 135px;
+  margin-bottom: 0px;
+}
+.letsee .form-article-down button {
+  padding: 20px 70px;
+}
+.letsee .form-foot {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  gap: 45px;
+}
+.letsee .form-foot p {
+  padding: 0;
+}
+
+.symptoms-container .symptoms-upper-text {
+  padding: 67px 460px 40px 460px;
+}
+.symptoms-container .symptoms-upper-text p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.symptoms-container .symptoms-lower-text {
+  padding: 0px 245px 180px 240px;
+}
+.symptoms-container .symptoms-man-img {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.symptoms-container .symptoms-virus-images {
+  position: absolute;
+  width: 100%;
+  padding-top: 20px;
+}
+.symptoms-container .symptoms-box {
+  position: relative;
+  padding: 23px 61px 23px 127px;
+}
+.symptoms-container .symptoms-box img {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}
+.symptoms-container .upper-symptoms-virus-images {
+  display: flex;
+  padding-bottom: 83px;
+  justify-content: space-between;
+  margin: 0 190px 0 280px;
+}
+.symptoms-container .mid-symptoms-virus-images {
+  display: flex;
+  padding-bottom: 83px;
+  justify-content: space-between;
+  margin: 0 150px 0 170px;
+}
+.symptoms-container .lower-symptoms-virus-images {
+  display: flex;
+  padding-bottom: 0;
+  justify-content: space-between;
+  margin: 0 150px 0 100px;
+}
+
+.testimonials {
+  position: relative;
+}
+.testimonials p {
+  margin: 0;
+}
+.testimonials .testimonials-upper {
+  padding: 57px 405px 0 405px;
+  margin-bottom: 40px;
+}
+.testimonials #feedback {
+  margin-bottom: 20px;
+}
+.testimonials .testimonials-desc {
+  padding: 0 245px 100px 245px;
+}
+.testimonials .back-image {
+  position: absolute;
+  display: flex;
+  gap: 150px;
+}
+.testimonials .testimonial-cards {
+  display: flex;
+  margin: 0 70px 0 70px;
+  justify-content: space-around;
+  padding-bottom: 321px;
+  gap: 100px;
+}
+.testimonials .testimonial-cards p {
+  margin: 0;
+}
+.testimonials .individual-testimonial-card {
+  padding: 30px 30px 40px 30px;
+}
+.testimonials .patient-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.footer {
+  position: relative;
+}
+.footer .upperdiv {
+  padding: 70px 241px 107px 241px;
+  text-align: center;
+  position: absolute;
+  top: -198px;
+  left: 212px;
+}
+.footer .upperdiv p {
+  margin: 0;
+}
+.footer .upperdiv .upper-top-quote {
+  margin-bottom: 20px;
+}
+.footer .upperdiv .upper-top-desc {
+  margin-bottom: 40px;
+}
+.footer .upperdiv .upper-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer input {
+  padding: 29px 0 29px 40px;
+  width: 100%;
+}
+.footer .footer-send {
+  display: flex;
+  align-items: center;
+  padding: 17px 30px 17px 30px;
+}
+.footer .lowerdiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 327px 79px 123px 67px;
+  align-items: center;
+}
+.footer .lowerdiv .footer-nav-bar {
+  display: flex;
+  gap: 25px;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+.hero-container .header .nav-bar-item {
+  font-size: 24px;
+  line-height: normal;
+}
+.hero-container .header .highlight {
+  font-weight: 700;
+  color: #ffffff;
+}
+.hero-container .header .default {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+}
+.hero-container .header .nav-button {
+  font-weight: 700;
+  color: #17c2ec;
+  background: rgba(196, 196, 196, 0.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.hero-container .hero {
+  color: white;
+}
+.hero-container .message {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #17c2ec;
+}
+.hero-container .middle-desc {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 59px;
+  color: #ffffff;
+}
+.hero-container #site-name {
+  color: rgb(23, 194, 236);
+}
+.hero-container .lower-desc {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.hero-container .left-btn a {
+  background: #17c2ec;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  border: none;
+  color: #ffffff;
+}
+.hero-container .right-btn a {
+  background: rgba(196, 196, 196, 0.1);
+  border: 2px solid #17c2ec;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.hero-containe .child-bottom {
+  background: rgba(196, 196, 196, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.hero-container .article-writing {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  background-color: transparent;
+}
+.hero-container .article .lower-article {
+  background: rgba(196, 196, 196, 0.05);
+  border-radius: 20px 20px 0px 0px;
+}
+.hero-container
+  .article
+  .lower-article
+  .article-details
+  .individual-article
+  .upper-article-info {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.hero-container
+  .article
+  .lower-article
+  .article-details
+  .individual-article
+  .lower-article-info {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.hero-container .article-submit button {
+  background: #17c2ec;
+  border-radius: 20px;
+  border: none;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.logo-container {
+  background: #949485;
+}
+.logo-container .logo-items {
+  display: flex;
+}
+
+.details-container {
+  background: url(/assets/img/database-bg.svg), lightgray;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #0b153c;
+  padding-bottom: 40px;
+}
+.details-container .details-elements {
+  max-width: 1440px;
+}
+.details-container .details-elements .details-form {
+  border-radius: 8px;
+  background-color: rgba(196, 196, 196, 0.1);
+}
+.details-container .details-form-title {
+  background: rgba(196, 196, 196, 0.05);
+  border-radius: 20px 20px 0px 0px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.details-container .details-form-fill-elements input {
+  background: rgba(196, 196, 196, 0.1);
+  border-radius: 20px;
+  border: none;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  border: 3px solid rgba(196, 196, 196, 0.15);
+}
+.details-container .details-form-fill-elements input input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.details-container .details-form-fill-elements #input1::placeholder {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.details-container .details-form-fill-elements #input1 {
+  border: 3px solid rgb(23, 194, 236);
+}
+.details-container .details-form-fill-elements button {
+  background: rgba(196, 196, 196, 0.1);
+  border: 3px solid #17c2ec;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #17c2ec;
+}
+.details-container .details-form-foot {
+  background-color: rgba(196, 196, 196, 0.05);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #17c2ec;
+  border-radius: 20px;
+}
+.details-container .details-info-left {
+  font-weight: 700;
+  font-size: 47.9002px;
+  line-height: 58px;
+  color: #ffffff;
+}
+.details-container
+  .details-elements
+  .details-info
+  .details-info-up
+  .details-info-right {
+  font-weight: 400;
+  font-size: 19.9584px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.details-container .details-elements .details-cards .details-cards-big {
+  background-color: rgba(196, 196, 196, 0.2);
+  border-radius: 49.9px 149.69px 49.9px 49.9px;
+}
+.details-container .big-card-name {
+  font-weight: 700;
+  font-size: 23.9501px;
+  line-height: 29px;
+  color: #17c2ec;
+}
+.details-container .big-card-desc {
+  font-weight: 500;
+  font-size: 17.9626px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.details-container .big-card-link {
+  font-weight: 700;
+  font-size: 17.9626px;
+  line-height: 22px;
+  color: #17c2ec;
+}
+.details-container .details-cards-small-card {
+  color: white;
+  border-radius: 50px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+}
+.details-container .small-card-desc {
+  font-weight: 700;
+  font-size: 23.9501px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.details-container .small-card-link {
+  font-weight: 700;
+  font-size: 17.9626px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.letsee .form-article-up {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #000000;
+}
+.letsee .form-picture-front-word {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+}
+.letsee .form-article-down label {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.letsee .form-article-down input {
+  border-radius: 20px;
+  border: none;
+  background: rgba(11, 21, 60, 0.15);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(0, 0, 0, 0.25);
+}
+.letsee .form-article-down input::placeholder {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(0, 0, 0, 0.25);
+}
+.letsee .form-article-down p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.letsee .form-article-down button {
+  border: none;
+  background: #17c2ec;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.letsee .form-article-down .form-foot {
+  margin-top: 20px;
+}
+.letsee .form-foot p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.letsee .form-foot .check {
+  font-weight: 700;
+  color: #17c2ec;
+}
+
+.symptoms-container {
+  background-color: rgb(11, 21, 60);
+}
+.symptoms-container .symptoms-upper-text p {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+}
+.symptoms-container .symptoms-span {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 59px;
+  color: white;
+  text-align: center;
+}
+.symptoms-container #first {
+  color: #17c2ec;
+}
+.symptoms-container .symptoms-lower-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+.symptoms-container .symptoms-virus-images {
+  color: #17c2ec;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+.symptoms-container .symptoms-box {
+  background-color: rgba(196, 196, 196, 0.2);
+  border-radius: 10px;
+}
+
+.testimonials {
+  background-color: #dbd9cf;
+  background-image: url("./assets/img/testimonial-bg.png");
+}
+.testimonials .testimonials-upper {
+  text-align: center;
+}
+.testimonials #feedback {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #17c2ec;
+}
+.testimonials #patients-think {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 59px;
+}
+.testimonials .testimonials-desc {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.testimonials .patient-name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+.testimonials .patient-add {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.testimonials .patient-comment {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+.testimonials #covid {
+  color: rgb(23, 194, 236);
+}
+.testimonials .individual-testimonial-card {
+  background-color: rgba(196, 196, 196, 0.5);
+  border-radius: 20px;
+}
+.testimonials #blue-card {
+  background-color: rgb(23, 194, 236);
+  color: white;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.testimonials #blue-card .patient-add,
+.testimonials #blue-card .patient-comment {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.footer {
+  background-color: rgb(11, 21, 60);
+  color: white;
+}
+.footer .footer-nav-bar a {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer .home-bar a {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.footer .upperdiv {
+  background-color: rgb(23, 194, 236);
+  color: white;
+  border-radius: 50px;
+}
+.footer .upper-top-quote {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+}
+.footer .upper-top-desc {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+.footer .upper-bottom input {
+  border: none;
+  border-radius: 30px 0px 0px 30px;
+  color: black;
+}
+.footer .upper-bottom input::placeholder {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.25);
+}
+.footer .footer-send {
+  background: #0b153c;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 30px 30px 0px;
+}
+
+/* This is for tablets (width < 768px) */
+@media (max-width: 768px) {
+  .container {
+    padding: 50px 50px 0px 50px;
+    margin: 0 auto;
+  }
+  .container .header-logo {
+    width: 200px;
+    height: 35px;
+  }
+  .container .header-logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .container .header-menu {
+    display: block !important;
+  }
+  .container .header--nav {
+    display: none !important;
+  }
+  .container .header .nav-button {
+    display: none !important;
+  }
+  .container .hero {
+    display: block;
+    margin-top: 30px;
+  }
+  .container .hero .left-hero {
+    margin-bottom: 55px;
+  }
+  .container .hero-desc {
+    margin-bottom: 40px;
+  }
+  .container .upper-desc {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #17c2ec;
+  }
+  .container .middle-desc {
+    padding: 40px 0 40px 0px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffffff;
+  }
+  .container .lower-desc {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .container .hero .right-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .parent-pic {
+    padding: 0 75px 0 75px;
+  }
+  .container .child-left {
+    top: 235px;
+    left: 20px;
+  }
+  .container .child-right {
+    top: 235px;
+    right: 30px;
+  }
+  .container .child-bottom {
+    top: 520px;
+    left: 20px;
+  }
+  .container .article {
+    margin-top: 80px;
+  }
+  .container .article .upper-article {
+    margin-bottom: 30px;
+  }
+  .container .lower-article {
+    padding: 35px 35px 45px 35px;
+  }
+  .container .article-details {
+    flex-wrap: wrap;
+    gap: 13px;
+  }
+  .container .article-submit button {
+    width: 280px;
+    height: 65px;
+    background: #17c2ec;
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .logo-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 50px 10px 50px;
+  }
+  .logo-container .logo-items {
+    width: 100%;
+    height: 60px;
+    gap: 25px;
+    justify-content: center;
+  }
+  .logo-container .logo-items #moderna {
+    width: 148px;
+    height: 35px;
+  }
+  .logo-container .logo-items #astra {
+    width: 148px;
+    height: 42px;
+  }
+  .logo-container .logo-items #pfizer {
+    width: 148px;
+    height: 60px;
+  }
+  .logo-container .logo-items #sino {
+    width: 148px;
+    height: 30px;
+  }
+  .details-container {
+    padding: 55px 50px 45px 50px;
+  }
+  .details-container .details-form {
+    padding-bottom: 45px;
+  }
+  .details-container .details-form-title {
+    display: flex;
+    justify-content: center;
+    padding: 20px 100px 15px 100px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .details-container .details-form-fill-elements {
+    display: block;
+    padding: 40px 110px 50px 110px;
+  }
+  .details-container .details-form-fill-elements input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .details-container .details-form-fill-elements #input::placeholder {
+    color: #ffffff;
+  }
+  .details-container .details-form-fill-elements input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .details-container .details-form-fill-elements button {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 20px 50px 20px 50px;
+  }
+  .details-container .details-form-foot {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 15px 40px 20px 45px;
+    margin: 0px 65px 0px 65px;
+  }
+  .details-container .details-info {
+    margin-top: 55px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .details-container .details-info-up {
+    padding-top: 55px;
+    display: block;
+  }
+  .details-container .details-info-left {
+    margin-bottom: 40px;
+    font-size: 36px;
+    line-height: 44px;
+    width: 100%;
+  }
+  .details-container .details-info-right {
+    width: 100%;
+    word-wrap: break-word;
+    margin-bottom: 50px;
+  }
+  .details-container .details-cards {
+    display: block;
+  }
+  .details-container .details-cards-big {
+    margin-bottom: 40px;
+  }
+  .details-container .big-card-pic {
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  .details-container .big-card-pic img {
+    width: 100%;
+    height: 100%;
+  }
+  .details-container .details-cards-small {
+    gap: 40px;
+  }
+  .details-container .details-cards-small-card {
+    padding: 40px 40px 30px 40px;
+  }
+  .details-container .small-card-pic img {
+    width: 69px;
+    height: 69px;
+  }
+  .details-container .small-card-desc {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .letsee .form-article {
+    padding: 40px 60px 50px 60px;
+  }
+  .letsee .form-article-elements {
+    display: block;
+    position: static;
+  }
+  .letsee .form-article-up {
+    text-align: left;
+    font-size: 36px;
+    line-height: 44px;
+    padding-bottom: 0;
+  }
+  .letsee .form-article-mid {
+    padding-left: 20px;
+    padding-top: 65px;
+    position: relative;
+  }
+  .letsee .form-article-down {
+    width: 100%;
+    margin-top: 70px;
+  }
+  .letsee .form-article-down label {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .letsee .form-article-down input::placeholder {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .letsee .form-article .form-article-down button {
+    font-size: 20px;
+  }
+  .symptoms-container .symptoms-upper-text {
+    padding: 40px 188px 40px 188px;
+  }
+  .symptoms-container .symptoms-upper-text p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .symptoms-container .symptoms-span {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .symptoms-container .symptoms-lower-text {
+    padding: 0px 107px 60px 108px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .symptoms-container .symptoms-man-img {
+    width: 100%;
+    height: 343px;
+    display: flex;
+    justify-content: center;
+  }
+  .symptoms-container .symptoms-virus-images {
+    padding-top: 30px;
+  }
+  .symptoms-container .symptoms-box {
+    position: relative;
+    padding: 12px 15px 11px 36px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .symptoms-container .symptoms-box img {
+    position: absolute;
+    top: -7px;
+    left: -33px;
+    width: 65px;
+    height: 65px;
+  }
+  .symptoms-container .upper-symptoms-virus-images {
+    margin: 0 50px 0 154px;
+    padding-bottom: 40px;
+  }
+  .symptoms-container .mid-symptoms-virus-images {
+    margin: 0 20px 0 80px;
+    padding-bottom: 40px;
+  }
+  .symptoms-container .lower-symptoms-virus-images {
+    margin: 0 10px 0 43px;
+  }
+  .testimonials {
+    padding-bottom: 130px;
+  }
+  .testimonials .testimonials-upper {
+    padding: 46px 148px 40px 148px;
+    margin-bottom: 0;
+  }
+  .testimonials #feedback {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .testimonials #patients-think {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .testimonials .testimonials-desc {
+    padding: 0 94px 60px 94px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .testimonials .back-image {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    top: 267px;
+    left: 300px;
+  }
+  .testimonials .back-image img {
+    width: 173px;
+    height: 283px;
+  }
+  .testimonials .testimonial-cards {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 30px;
+    padding: 0 182px 60px 182px;
+  }
+  .testimonials .patient-name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .testimonials .individual-testimonial-card {
+    padding: 30px 33px 44px 34px;
+  }
+  .footer .upperdiv {
+    padding: 16px 48px 56px 62px;
+    top: -75px;
+    left: 54px;
+    right: 54px;
+  }
+  .footer .upper-top-quote {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .footer .upper-top-desc {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .footer .upper-bottom input {
+    padding: 29px 0px 29px 40px;
+  }
+  .footer .lowerdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    padding: 270px 0px 50px 50px;
+  }
+  .footer .lowerdiv img {
+    width: 200px;
+  }
+  .footer .footer-nav-bar {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .footer .home-bar {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .footer .footer-logo {
+    display: flex;
+    align-items: center;
+  }
+  .footer .footer-logo img {
+    width: 139px;
+    height: 31px;
+  }
+}
+/* This is for mobile phones (width < 575px) */
+@media (max-width: 375px) {
+  .container {
+    padding: 50px 35px 0px 35px;
+  }
+  .container .header-logo {
+    width: 200px;
+    height: 35px;
+  }
+  .container .header-logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .container .header-menu {
+    display: block !important;
+  }
+  .container .nav {
+    display: none !important;
+  }
+  .container .header .nav-button {
+    display: none !important;
+  }
+  .container .hero {
+    display: block;
+    margin-top: 30px;
+  }
+  .container .left-hero {
+    margin-bottom: 50px;
+  }
+  .container .hero-desc {
+    margin-bottom: 40px;
+  }
+  .container .upper-desc {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #17c2ec;
+  }
+  .container .middle-desc {
+    padding: 20px 0 20px 0px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+  }
+  .container .lower-desc {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .container .hero-btns {
+    justify-content: center;
+    align-items: center;
+  }
+  .container .left-btn {
+    padding-bottom: 0;
+  }
+  .container .left-btn a {
+    background: #17c2ec;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+  }
+  .container .right-btn a {
+    background: rgba(196, 196, 196, 0.1);
+    border: 2px solid #17c2ec;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+  }
+  .container .right-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .parent-pic {
+    width: 306px;
+    height: 309px;
+    padding: 0;
+  }
+  .container .parent-pic img {
+    width: 100%;
+    height: 100%;
+  }
+  .container .child-left {
+    width: 50px;
+    height: 50px;
+    top: 130px;
+    left: -25px;
+  }
+  .container .child-left img {
+    height: 100%;
+    width: 100%;
+  }
+  .container .child-right {
+    width: 50px;
+    height: 50px;
+    top: 130px;
+    right: -25px;
+  }
+  .container .child-right img {
+    height: 100%;
+    width: 100%;
+  }
+  .container .child-bottom {
+    gap: 10px;
+    padding: 15px;
+    width: 238px;
+    height: 69px;
+    top: 275px;
+    left: -25px;
+  }
+  .container .doc-images {
+    width: 38.8px;
+    height: 38.8px;
+  }
+  .container .doc-images img {
+    width: 100%;
+    height: 100%;
+  }
+  .container .doc-info {
+    width: 78px;
+    height: 34px;
+  }
+  .container .doc-info img {
+    width: 100%;
+    height: 100%;
+  }
+  .container .article {
+    margin-top: 80px;
+  }
+  .container .upper-article {
+    margin-bottom: 20px;
+  }
+  .container .article-img {
+    width: 30px;
+    height: 30px;
+  }
+  .container .article-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .container .article-writing {
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    margin: 0;
+  }
+  .container .lower-article {
+    padding: 10px 90px 10px 10px;
+  }
+  .container .article-details {
+    display: block;
+  }
+  .container .individual-article {
+    margin-bottom: 15px;
+  }
+  .container .individual-article .article-pic {
+    height: 30px;
+    width: 30px;
+  }
+  .container .article-pic img {
+    width: 100%;
+    height: 100%;
+  }
+  .container .upper-article-info {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .container .lower-article-info {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+  }
+  .container .article-submit {
+    margin-top: 20px;
+  }
+  .container .article-submit button {
+    width: 150px;
+    height: 50px;
+    background: #17c2ec;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+  }
+  .logo-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px 24px;
+  }
+  .logo-container .logo-items {
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo-container .logo-items #moderna {
+    width: 72px;
+    height: 16px;
+  }
+  .logo-container .logo-items #astra {
+    width: 72px;
+    height: 20px;
+  }
+  .logo-container .logo-items #pfizer {
+    width: 72px;
+    height: 30px;
+  }
+  .logo-container .logo-items #sino {
+    width: 72px;
+    height: 15px;
+  }
+  .details-container {
+    padding: 85px 40px 40px 35px;
+  }
+  .details-container .details-form {
+    padding-bottom: 30px;
+  }
+  .details-container .details-form-title {
+    display: flex;
+    justify-content: center;
+    padding: 15px 30px 15px 30px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .details-container .details-form-fill-elements {
+    display: block;
+    padding: 20px 10px 50px 10px;
+  }
+  .details-container .details-form-fill-elements input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 0px 15px 20px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .details-container .details-form-fill-elements #input1::placeholder {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .details-container .details-form-fill-elements button {
+    padding: 15px 50px 15px 50px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .details-container .details-form-foot {
+    padding: 15px 15px 15px 15px;
+    margin: 0px 12px 0px 13px;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+  }
+  .details-container .details-info {
+    margin-top: 30px;
+    padding: 0;
+  }
+  .details-container .details-info-up {
+    padding-top: 40px;
+    display: block;
+  }
+  .details-container .details-info-left {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .details-container .details-info-right {
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .details-container .details-cards {
+    display: block;
+  }
+  .details-container .details-cards-big {
+    padding: 20px 20px 30px 20px;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+    border-radius: 20px 80px 20px 20px;
+    width: 100%;
+  }
+  .details-container .big-card-pic {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .details-container .big-card-pic img {
+    width: 100%;
+    height: 100%;
+  }
+  .details-container .big-card-name {
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 20px;
+  }
+  .details-container .big-card-desc {
+    font-size: 12px;
+    line-height: 15px;
+    padding-bottom: 25px;
+  }
+  .details-container .big-card-link {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .details-container .big-card-link img {
+    height: 20px;
+    width: 20px;
+  }
+  .details-container .details-cards-small {
+    display: block;
+  }
+  .details-container .details-cards-small-card {
+    width: 188px;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .details-container .small-card-pic {
+    width: 50px;
+    height: 50px;
+  }
+  .details-container .small-card-pic img {
+    width: 100%;
+    height: 100%;
+  }
+  .details-container .small-card-desc {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .details-container .small-card-link {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .details-container .small-card-link img {
+    width: 20px;
+    height: 20px;
+  }
+  .details-container #second-link {
+    padding-top: 20px;
+  }
+  .letsee .form-article {
+    padding: 35px 35px 40px 35px;
+  }
+  .letsee .form-article-elements {
+    display: block;
+    position: static;
+  }
+  .letsee .form-article-up {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 0;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .letsee .form-article-mid {
+    padding-top: 40px;
+    padding-left: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .letsee .form-picture-back {
+    width: 289px;
+    height: 418px;
+  }
+  .letsee .injection {
+    width: 289px;
+    height: 418px;
+    top: 0;
+    left: 0;
+  }
+  .letsee .injection img {
+    width: 100%;
+    height: 100%;
+  }
+  .letsee .form-picture-front-word {
+    top: 30px;
+    left: 90px;
+  }
+
+  .form-picture-front-view a {
+    border-radius: 10px;
+    background: rgba(196, 196, 196, 0.25);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .letsee .form-picture-front-word p {
+    font-size: 14px;
+    margin: 0;
+  }
+  .letsee .form-picture-front {
+    width: 289px;
+    height: 365px;
+    left: 0;
+    top: 53px;
+  }
+  .letsee .form-picture-front img {
+    width: 100%;
+    height: 100%;
+  }
+  .letsee .form-picture-front-view {
+    width: 200px;
+    height: 50px;
+    left: 37px;
+    top: 318px;
+  }
+  .letsee .form-picture-front-view img {
+    width: 100%;
+    height: 100%;
+  }
+  .letsee .form-picture-front-virus {
+    width: 74px;
+    height: 72px;
+    left: -15px;
+    top: -20px;
+  }
+  .letsee .form-picture-front-virus img {
+    width: 100%;
+    height: 100%;
+  }
+  .letsee .form-article-down {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .letsee .form-article-down label {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .letsee .form-article-down input {
+    padding: 15px 0 15px 20px;
+    margin-bottom: 20px;
+  }
+  .letsee .form-article-down input::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .letsee .form-article-down p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .letsee .form-article-down button {
+    font-size: 20px;
+  }
+  .letsee .phone-field {
+    display: block;
+    margin-bottom: 60px;
+  }
+  .phone-field button {
+    margin-top: 20px;
+    padding: 17px 55px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .letsee .phone-input img {
+    top: 10px;
+    left: 20px;
+  }
+  .letsee .phone-input #phone {
+    padding-left: 120px;
+    width: 100%;
+  }
+  .letsee .form-article-down button {
+    padding: 17px 125px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .letsee .form-foot {
+    gap: 20px;
+  }
+  .letsee .form-foot p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .symptoms-container .symptoms-upper-text {
+    padding: 25px 57px 10px 57px;
+  }
+  .symptoms-container .symptoms-upper-text p {
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .symptoms-container .symptoms-span {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .symptoms-container .symptoms-lower-text {
+    padding: 0px 40px 30px 40px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .symptoms-container .symptoms-man-img {
+    width: 100%;
+    height: 167px;
+    display: flex;
+    justify-content: center;
+  }
+  .symptoms-container .symptoms-virus-images {
+    padding-top: 30px;
+  }
+  .symptoms-container .symptoms-box {
+    position: relative;
+    padding: 5px 5px 5px 17px;
+    font-size: 9px;
+    line-height: 11px;
+    border-radius: 5px;
+  }
+  .symptoms-container .symptoms-box img {
+    position: absolute;
+    top: -4px;
+    left: -16px;
+    width: 32px;
+    height: 32px;
+  }
+  .symptoms-container .upper-symptoms-virus-images {
+    margin: 0 20px 0 60px;
+    padding-bottom: 20px;
+  }
+  .symptoms-container .mid-symptoms-virus-images {
+    margin: 0 15px 0 40px;
+    padding-bottom: 20px;
+  }
+  .symptoms-container .lower-symptoms-virus-images {
+    margin: 0 30px 0 20px;
+  }
+  .testimonials {
+    padding-bottom: 130px;
+  }
+  .testimonials .testimonials-upper {
+    padding: 30px 30px 10px 30px;
+    margin-bottom: 0;
+  }
+  .testimonials #feedback {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .testimonials #patients-think {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .testimonials .testimonials-desc {
+    padding: 0 65px 15px 65px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .testimonials .back-image {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    top: 180px;
+    left: 125px;
+  }
+  .testimonials .back-image img {
+    width: 124px;
+    height: 200px;
+  }
+  .testimonials .testimonial-cards {
+    display: flex;
+    flex-direction: column;
+    margin: 0 35px 0 35px;
+    padding: 0;
+  }
+  .testimonials .patient-pic {
+    width: 53px;
+    height: 53px;
+  }
+  .testimonials .patient-pic img {
+    width: 100%;
+    height: 100%;
+  }
+  .testimonials .patient-name {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .testimonials .patient-add {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .testimonials .patient-comment {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .testimonials .individual-testimonial-card {
+    padding: 25px 25px 30px 25px;
+  }
+  .testimonials .patient-info {
+    margin-bottom: 30px;
+  }
+  .footer .upperdiv {
+    padding: 16px 34px 30px 34px;
+    top: -75px;
+    left: 54px;
+    right: 54px;
+    border-radius: 10px;
+  }
+  .footer .upper-top-quote {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 5px;
+  }
+  .footer .upper-top-desc {
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 24px;
+  }
+  .footer .upper-bottom input {
+    padding: 12px 0px 12px 12px;
+  }
+  .footer .upper-bottom input::placeholder {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .footer .footer-send {
+    padding: 10px 23px 10px 10px;
+  }
+  .footer .footer-send img {
+    width: 23px;
+    height: 20px;
+  }
+  .footer .lowerdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 133px 0px 30px 35px;
+  }
+  .footer .lowerdiv img {
+    width: 140px;
+  }
+  .footer .footer-nav-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .footer .home-bar {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .footer .footer-logo {
+    display: flex;
+    align-items: center;
+  }
+  .footer .footer-logo img {
+    width: 80px;
+    height: 18px;
+  }
+}
