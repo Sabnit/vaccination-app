@@ -10,6 +10,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 .container {
@@ -68,21 +69,21 @@ a {
 .container .right-btn a {
   padding: 20px 25px 20px 25px;
 }
-.container .parent-pic {
+.container .corona-vaccine-img {
   padding: 0 40px 0 50px;
   position: relative;
 }
-.container .child-left {
+.container .doctor-img {
   position: absolute;
   left: 0;
   top: 235px;
 }
-.container .child-right {
+.container .corona-virus-img {
   position: absolute;
   right: 0;
   top: 235px;
 }
-.container .child-bottom {
+.container .specialist-container {
   display: flex;
   align-items: center;
   padding: 20px 30px 20px 20px;
@@ -92,36 +93,36 @@ a {
   top: 520px;
   left: 0;
 }
-.container .doc-group {
+.container .specialist-img-wrapper {
   display: flex;
 }
-.container .article {
+.container .schedule-your-vaccination {
   width: 100%;
 }
-.container .upper-article {
+.container .schedule-your-vaccination-title-wrapper {
   display: flex;
   align-items: center;
   gap: 20px;
   margin-bottom: 20px;
 }
-.container .lower-article {
+.container .schedule-your-vaccination-item-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 55px 40px 45px 40px;
 }
-.container .article-details {
+.container .schedule-your-vaccination-item {
   display: flex;
   justify-content: space-around;
   gap: 50px;
   width: 100%;
 }
-.container .individual-article {
+.container .item {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.container .article-submit button {
+.container .submit button {
   padding: 20px 25px 20px 25px;
 }
 
@@ -135,97 +136,94 @@ a {
   gap: 50px;
 }
 
-.details-container .details-elements {
+.information-container .information-wrapper {
   padding: 60px 70px 80px 70px;
   margin: 0 auto;
 }
-.details-container .details-form {
+.information-container .information-form {
   padding-bottom: 30px;
 }
-.details-container .details-form-title {
+.information-container .information-form-title {
   padding: 35px 0 35px 90px;
 }
-.details-container .details-form-fill-elements {
+.information-container .information-form-input-items {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   padding: 35px 90px;
 }
-.details-container .details-form-fill-elements input {
+.information-container .information-form-input-items input {
   padding: 20px 0 20px 20px;
   width: 450px;
   height: 70px;
 }
-.details-container .details-form-fill-elements button {
+.information-container .information-form-input-items button {
   padding: 20px 40px 20px 40px;
   width: 175px;
   height: 70px;
   align-items: center;
 }
-.details-container .details-form-foot {
+.information-container .information-form-link {
   margin: 0px 90px 0 90px;
   padding: 20px 175px;
   text-align: center;
   align-items: center;
 }
-.details-container .details-info {
+.information-container .information-container {
   margin-top: 60px;
 }
-.details-container .details-info-up {
+.information-container .information-upper {
   display: flex;
   justify-content: space-between;
   padding-top: 60px;
   margin-bottom: 40px;
 }
-.details-container .details-info-left {
+.information-container .information-upper-title {
   width: 50%;
 }
-.details-container .details-info-right {
+.information-container .information-upper-desc {
   width: 50%;
 }
-.details-container .details-cards {
+.information-container .information-cards {
   display: flex;
   align-items: flex-end;
   gap: 75px;
 }
-.details-container .details-cards-big {
+.information-container .information-card-big {
   width: 450px;
   padding: 40px 55px 75px 40px;
 }
-.details-container .big-card-pic {
+.information-container .big-card-pic {
   padding-bottom: 40px;
 }
-.details-container .big-card-name {
+.information-container .big-card-title {
   padding-bottom: 30px;
 }
-.details-container .details-cards-big .big-card-desc {
+.information-container .information-card-big .big-card-desc {
   padding-bottom: 40px;
 }
-.details-container .details-cards-big .big-card-link {
+.information-container .information-card-big .big-card-link {
   display: flex;
   align-items: center;
   gap: 5px;
 }
-.details-container .details-cards-small {
+.information-container .information-cards-small {
   display: flex;
   justify-content: space-between;
   gap: 75px;
 }
-.details-container .details-cards-small-card {
+.information-container .information-cards-small-card {
   padding: 40px 50px 60px 40px;
   width: 350px;
 }
-.details-container .small-card-desc {
+.information-container .small-card-desc {
   padding-top: 40px;
   padding-bottom: 50px;
 }
-.details-container .small-card-link {
+.information-container .small-card-link {
   display: flex;
   align-items: center;
   gap: 5px;
-}
-.details-container #second-link {
-  padding-top: 30px;
 }
 
 .vaccine-registration {
@@ -236,49 +234,49 @@ a {
   background-color: lightgray;
   padding-bottom: 40px;
 }
-.vaccine-registration .form-article {
+.vaccine-registration .form-wrapper {
   padding: 40px 70px 30px 70px;
   margin: 0 auto;
   max-width: 1440px;
 }
-.vaccine-registration .form-article-elements {
+.vaccine-registration .form-wrapper-elements {
   display: flex;
   flex-direction: column;
   position: relative;
 }
-.vaccine-registration .form-article-up {
+.vaccine-registration .form-title {
   padding-bottom: 40px;
   display: flex;
   align-items: flex-start;
 }
-.vaccine-registration .form-article-mid {
+.vaccine-registration .form-img-wrapper {
   padding-top: 40px;
   padding-right: 5px;
   position: absolute;
   top: 0;
   right: 0;
 }
-.vaccine-registration .form-picture-back {
+.vaccine-registration .form-img-container {
   position: relative;
 }
-.vaccine-registration .form-picture-front {
+.vaccine-registration .form-img {
   position: absolute;
   left: 0;
   top: 70px;
 }
-.vaccine-registration .form-picture-front-word {
+.vaccine-registration .img-title {
   position: absolute;
   width: 116px;
   top: 30px;
   left: 130px;
 }
-.vaccine-registration .form-picture-front-view {
+.vaccine-registration .img-button {
   position: absolute;
   left: 90px;
   top: 440px;
 }
 
-.vaccine-registration .form-picture-front-view a {
+.vaccine-registration .img-button a {
   border-radius: 10px;
   background: rgba(196, 196, 196, 0.25);
   padding: 20px;
@@ -291,24 +289,24 @@ a {
   line-height: normal;
 }
 
-.vaccine-registration .form-picture-front-virus {
+.vaccine-registration .form-img-virus {
   position: absolute;
   left: -20px;
   top: -25px;
 }
-.vaccine-registration .form-article-down {
+.vaccine-registration .form-input-wrapper {
   display: flex;
   flex-direction: column;
   width: 650px;
 }
-.vaccine-registration .form-article-down label {
+.vaccine-registration .form-input-wrapper label {
   padding-bottom: 20px;
 }
-.vaccine-registration .form-article-down input {
+.vaccine-registration .form-input-wrapper input {
   margin-bottom: 40px;
   padding: 20px 0 20px 30px;
 }
-.vaccine-registration .form-article-down p {
+.vaccine-registration .form-input-wrapper p {
   margin: 0;
   padding-bottom: 20px;
 }
@@ -330,61 +328,61 @@ a {
   padding-left: 135px;
   margin-bottom: 0px;
 }
-.vaccine-registration .form-article-down button {
+.vaccine-registration .form-input-wrapper button {
   padding: 20px 70px;
 }
-.vaccine-registration .form-foot {
+.vaccine-registration .form-bottom-links {
   display: flex;
   margin-top: 40px;
   justify-content: center;
   gap: 45px;
 }
-.vaccine-registration .form-foot p {
+.vaccine-registration .form-bottom-links p {
   padding: 0;
 }
 
-.symptoms-container .symptoms-upper-text {
+.symptoms-container .symptoms-title-container {
   padding: 67px 460px 40px 460px;
 }
-.symptoms-container .symptoms-upper-text p {
+.symptoms-container .symptoms-title-container p {
   margin: 0;
   margin-bottom: 20px;
 }
-.symptoms-container .symptoms-lower-text {
+.symptoms-container .symptoms-desc {
   padding: 0px 245px 180px 240px;
 }
-.symptoms-container .symptoms-man-img {
+.symptoms-container .symptoms-img-container {
   display: flex;
   justify-content: center;
   position: relative;
 }
-.symptoms-container .symptoms-virus-images {
+.symptoms-container .symptoms-items {
   position: absolute;
   width: 100%;
   padding-top: 20px;
 }
-.symptoms-container .symptoms-box {
+.symptoms-container .symptoms-item {
   position: relative;
   padding: 23px 61px 23px 127px;
 }
-.symptoms-container .symptoms-box img {
+.symptoms-container .symptoms-item img {
   position: absolute;
   top: -15px;
   left: -15px;
 }
-.symptoms-container .upper-symptoms-virus-images {
+.symptoms-container .upper-symptoms-items {
   display: flex;
   padding-bottom: 83px;
   justify-content: space-between;
   margin: 0 190px 0 280px;
 }
-.symptoms-container .mid-symptoms-virus-images {
+.symptoms-container .mid-symptoms-items {
   display: flex;
   padding-bottom: 83px;
   justify-content: space-between;
   margin: 0 150px 0 170px;
 }
-.symptoms-container .lower-symptoms-virus-images {
+.symptoms-container .lower-symptoms-items {
   display: flex;
   padding-bottom: 0;
   justify-content: space-between;
@@ -397,7 +395,7 @@ a {
 .testimonials p {
   margin: 0;
 }
-.testimonials .testimonials-upper {
+.testimonials .testimonials-title {
   padding: 57px 405px 0 405px;
   margin-bottom: 40px;
 }
@@ -407,7 +405,7 @@ a {
 .testimonials .testimonials-desc {
   padding: 0 245px 100px 245px;
 }
-.testimonials .back-image {
+.testimonials .vaccine-bottle-img-container {
   position: absolute;
   display: flex;
   gap: 150px;
@@ -425,7 +423,7 @@ a {
 .testimonials .individual-testimonial-card {
   padding: 30px 30px 40px 30px;
 }
-.testimonials .patient-info {
+.testimonials .patient-container {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -435,23 +433,23 @@ a {
 .footer {
   position: relative;
 }
-.footer .upperdiv {
+.footer .quote-container {
   padding: 70px 241px 107px 241px;
   text-align: center;
   position: absolute;
   top: -198px;
   left: 20%;
 }
-.footer .upperdiv p {
+.footer .quote-container p {
   margin: 0;
 }
-.footer .upperdiv .upper-top-quote {
+.footer .quote-container .quote-title {
   margin-bottom: 20px;
 }
-.footer .upperdiv .upper-top-desc {
+.footer .quote-container .quote-desc {
   margin-bottom: 40px;
 }
-.footer .upperdiv .upper-bottom {
+.footer .quote-container .input-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -460,18 +458,18 @@ a {
   padding: 29px 0 29px 40px;
   width: 100%;
 }
-.footer .footer-send {
+.footer .icon-img {
   display: flex;
   align-items: center;
   padding: 17px 30px 17px 30px;
 }
-.footer .lowerdiv {
+.footer .footer-nav-container {
   display: flex;
   justify-content: space-between;
   padding: 327px 79px 123px 67px;
   align-items: center;
 }
-.footer .lowerdiv .footer-nav-bar {
+.footer .footer-nav-container .footer-nav-bar {
   display: flex;
   gap: 25px;
 }
@@ -503,7 +501,7 @@ a {
 .hero-container .hero {
   color: white;
 }
-.hero-container .message {
+.hero-container .hero-message {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
@@ -544,45 +542,47 @@ a {
   line-height: 29px;
   color: #ffffff;
 }
-.hero-containe .child-bottom {
+.hero-containe .specialist-container {
   background: rgba(196, 196, 196, 0.2);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
 }
-.hero-container .article-writing {
+.hero-container .title {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
   color: #ffffff;
   background-color: transparent;
 }
-.hero-container .article .lower-article {
+.hero-container
+  .schedule-your-vaccination
+  .schedule-your-vaccination-item-wrapper {
   background: rgba(196, 196, 196, 0.05);
   border-radius: 20px 20px 0px 0px;
 }
 .hero-container
-  .article
-  .lower-article
-  .article-details
-  .individual-article
-  .upper-article-info {
+  .schedule-your-vaccination
+  .schedule-your-vaccination-item-wrapper
+  .schedule-your-vaccination-item
+  .item
+  .item-title {
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
   color: rgba(255, 255, 255, 0.5);
 }
 .hero-container
-  .article
-  .lower-article
-  .article-details
-  .individual-article
-  .lower-article-info {
+  .schedule-your-vaccination
+  .schedule-your-vaccination-item-wrapper
+  .schedule-your-vaccination-item
+  .item
+  .item-desc {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
   color: #ffffff;
 }
-.hero-container .article-submit button {
+.hero-container .submit button {
   background: #17c2ec;
   border-radius: 20px;
   border: none;
@@ -599,7 +599,7 @@ a {
   display: flex;
 }
 
-.details-container {
+.information-container {
   background: url(./assets/img/database-bg.svg), lightgray;
   background-position: 50%;
   background-size: cover;
@@ -607,14 +607,14 @@ a {
   background-color: #0b153c;
   padding-bottom: 40px;
 }
-.details-container .details-elements {
+.information-container .information-wrapper {
   max-width: 1440px;
 }
-.details-container .details-elements .details-form {
+.information-container .information-wrapper .information-form {
   border-radius: 8px;
   background-color: rgba(196, 196, 196, 0.1);
 }
-.details-container .details-form-title {
+.information-container .information-form-title {
   background: rgba(196, 196, 196, 0.05);
   border-radius: 20px 20px 0px 0px;
   font-weight: 700;
@@ -622,7 +622,7 @@ a {
   line-height: 29px;
   color: #ffffff;
 }
-.details-container .details-form-fill-elements input {
+.information-container .information-form-input-items input {
   background: rgba(196, 196, 196, 0.1);
   border-radius: 20px;
   border: none;
@@ -632,19 +632,19 @@ a {
   color: #ffffff;
   border: 3px solid rgba(196, 196, 196, 0.15);
 }
-.details-container .details-form-fill-elements input input::placeholder {
+.information-container .information-form-input-items input input::placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
-.details-container .details-form-fill-elements #input1::placeholder {
+.information-container .information-form-input-items .blue-border::placeholder {
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
   color: #ffffff;
 }
-.details-container .details-form-fill-elements #input1 {
+.information-container .information-form-input-items .blue-border {
   border: 3px solid rgb(23, 194, 236);
 }
-.details-container .details-form-fill-elements button {
+.information-container .information-form-input-items button {
   background: rgba(196, 196, 196, 0.1);
   border: 3px solid #17c2ec;
   border-radius: 20px;
@@ -653,7 +653,7 @@ a {
   line-height: 29px;
   color: #17c2ec;
 }
-.details-container .details-form-foot {
+.information-container .information-form-link {
   background-color: rgba(196, 196, 196, 0.05);
   font-weight: 700;
   font-size: 24px;
@@ -661,83 +661,86 @@ a {
   color: #17c2ec;
   border-radius: 20px;
 }
-.details-container .details-info-left {
+.information-container .information-upper-title {
   font-weight: 700;
   font-size: 47.9002px;
   line-height: 58px;
   color: #ffffff;
 }
-.details-container
-  .details-elements
-  .details-info
-  .details-info-up
-  .details-info-right {
+.information-container
+  .information-wrapper
+  .information-container
+  .information-upper
+  .information-upper-desc {
   font-weight: 400;
   font-size: 19.9584px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.5);
 }
-.details-container .details-elements .details-cards .details-cards-big {
+.information-container
+  .information-wrapper
+  .information-cards
+  .information-card-big {
   background-color: rgba(196, 196, 196, 0.2);
   border-radius: 49.9px 149.69px 49.9px 49.9px;
 }
-.details-container .big-card-name {
+.information-container .big-card-title {
   font-weight: 700;
   font-size: 23.9501px;
   line-height: 29px;
   color: #17c2ec;
 }
-.details-container .big-card-desc {
+.information-container .big-card-desc {
   font-weight: 500;
   font-size: 17.9626px;
   line-height: 22px;
   color: #ffffff;
 }
-.details-container .big-card-link {
+.information-container .big-card-link {
   font-weight: 700;
   font-size: 17.9626px;
   line-height: 22px;
   color: #17c2ec;
 }
-.details-container .details-cards-small-card {
+.information-container .information-cards-small-card {
   color: white;
   border-radius: 50px;
   border: 3px solid rgba(255, 255, 255, 0.5);
 }
-.details-container .small-card-desc {
+.information-container .small-card-desc {
   font-weight: 700;
   font-size: 23.9501px;
   line-height: 29px;
   color: #ffffff;
 }
-.details-container .small-card-link {
+.information-container .small-card-link {
   font-weight: 700;
   font-size: 17.9626px;
   line-height: 22px;
   color: rgba(255, 255, 255, 0.5);
 }
 
-.vaccine-registration .form-article-up {
+.vaccine-registration .form-title {
   font-weight: 700;
   font-size: 48px;
   line-height: 59px;
   text-align: center;
   color: #000000;
 }
-.vaccine-registration .form-picture-front-word {
+.vaccine-registration .img-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
   text-align: center;
   color: #ffffff;
 }
-.vaccine-registration .form-article-down label {
+.vaccine-registration .form-input-wrapper label {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
   color: #000000;
 }
-.vaccine-registration .form-article-down input {
+.vaccine-registration .form-input-wrapper input {
   border-radius: 20px;
   border: none;
   background: rgba(11, 21, 60, 0.15);
@@ -746,19 +749,19 @@ a {
   line-height: 29px;
   color: rgba(0, 0, 0, 0.25);
 }
-.vaccine-registration .form-article-down input::placeholder {
+.vaccine-registration .form-input-wrapper input::placeholder {
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
   color: rgba(0, 0, 0, 0.25);
 }
-.vaccine-registration .form-article-down p {
+.vaccine-registration .form-input-wrapper p {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.5);
 }
-.vaccine-registration .form-article-down button {
+.vaccine-registration .form-input-wrapper button {
   border: none;
   background: #17c2ec;
   border-radius: 20px;
@@ -767,60 +770,67 @@ a {
   line-height: 29px;
   color: #ffffff;
 }
-.vaccine-registration .form-article-down .form-foot {
+.vaccine-registration .form-input-wrapper .form-bottom-links {
   margin-top: 20px;
 }
-.vaccine-registration .form-foot p {
+.vaccine-registration .form-bottom-links p {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.5);
 }
-.vaccine-registration .form-foot .check {
+.vaccine-registration .form-bottom-links .check {
   font-weight: 700;
   color: #17c2ec;
 }
 
 .symptoms {
-  background-color: rgb(11, 21, 60);
+  background: url(./assets/img/symptoms-bg.png);
 }
 
 .symptoms-container {
   width: 1440px;
   margin: 0 auto;
 }
-.symptoms-container .symptoms-upper-text p {
+
+.symptoms .symptoms-container .title-container {
+  padding-top: 20px;
+}
+
+.symptoms-container .title-container .prevention {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
   text-align: center;
   color: #ffffff;
 }
-.symptoms-container .symptoms-span {
+
+.title-container {
+  text-align: center;
   font-weight: 800;
   font-size: 48px;
   line-height: 59px;
   color: white;
-  text-align: center;
 }
-.symptoms-container #first {
+
+.symptoms-container .color-blue {
   color: #17c2ec;
 }
-.symptoms-container .symptoms-lower-text {
+.symptoms-container .symptoms-desc {
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
 }
-.symptoms-container .symptoms-virus-images {
+.symptoms-container .symptoms-items {
   color: #17c2ec;
   text-align: center;
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
 }
-.symptoms-container .symptoms-box {
+.symptoms-container .symptoms-item {
   background-color: rgba(196, 196, 196, 0.2);
   border-radius: 10px;
 }
@@ -836,16 +846,16 @@ a {
   max-width: 1440px;
   margin: 0 auto;
 }
-.testimonials .testimonials-upper {
+.testimonials .testimonials-title {
   text-align: center;
 }
-.testimonials #feedback {
+.testimonials .feedback {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
   color: #17c2ec;
 }
-.testimonials #patients-think {
+.testimonials .testimonial-title {
   font-weight: 800;
   font-size: 48px;
   line-height: 59px;
@@ -862,7 +872,7 @@ a {
   font-size: 24px;
   line-height: 29px;
 }
-.testimonials .patient-add {
+.testimonials .patient-location {
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
@@ -887,14 +897,13 @@ a {
   color: white;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.testimonials #blue-card .patient-add,
+.testimonials #blue-card .patient-location,
 .testimonials #blue-card .patient-comment {
   color: rgba(255, 255, 255, 0.75);
 }
 
 .footer {
-  background-color: rgb(11, 21, 60);
-  color: white;
+  background: url(./assets/img/footer-bg.png);
 }
 .footer-wrapper {
   margin: 0 auto;
@@ -912,33 +921,33 @@ a {
   line-height: 29px;
   color: #ffffff;
 }
-.footer .upperdiv {
+.footer .quote-container {
   background-color: rgb(23, 194, 236);
   color: white;
   border-radius: 50px;
 }
-.footer .upper-top-quote {
+.footer .quote-title {
   font-weight: 700;
   font-size: 48px;
   line-height: 59px;
 }
-.footer .upper-top-desc {
+.footer .quote-desc {
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
 }
-.footer .upper-bottom input {
+.footer .input-container input {
   border: none;
   border-radius: 30px 0px 0px 30px;
   color: black;
 }
-.footer .upper-bottom input::placeholder {
+.footer .input-container input::placeholder {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.25);
 }
-.footer .footer-send {
+.footer .icon-img {
   background: #0b153c;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 0px 30px 30px 0px;
@@ -999,42 +1008,44 @@ a {
     line-height: 24px;
     color: rgba(255, 255, 255, 0.7);
   }
-  .container .hero .right-hero {
+  .container .hero .hero-right-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 50px;
   }
-  .container .parent-pic {
+  .container .corona-vaccine-img {
     padding: 0 75px 0 75px;
   }
-  .container .child-left {
+  .container .doctor-img {
     top: 235px;
     left: 20px;
   }
-  .container .child-right {
+  .container .corona-virus-img {
     top: 235px;
     right: 30px;
   }
-  .container .child-bottom {
+  .container .specialist-container {
     top: 520px;
     left: 20px;
   }
-  .container .article {
+  .container .schedule-your-vaccination {
     margin-top: 80px;
   }
-  .container .article .upper-article {
+  .container
+    .schedule-your-vaccination
+    .schedule-your-vaccination-title-wrapper {
     margin-bottom: 30px;
   }
-  .container .lower-article {
+  .container .schedule-your-vaccination-item-wrapper {
     padding: 35px 35px 45px 35px;
   }
-  .container .article-details {
+  .container .schedule-your-vaccination-item {
     flex-wrap: wrap;
     gap: 13px;
     justify-content: flex-start;
   }
-  .container .article-submit button {
+  .container .submit button {
     width: 280px;
     height: 65px;
     background: #17c2ec;
@@ -1069,13 +1080,13 @@ a {
     width: 148px;
     height: 30px;
   }
-  .details-container {
+  .information-container {
     padding: 55px 50px 45px 50px;
   }
-  .details-container .details-form {
+  .information-container .information-form {
     padding-bottom: 45px;
   }
-  .details-container .details-form-title {
+  .information-container .information-form-title {
     display: flex;
     justify-content: center;
     padding: 20px 100px 15px 100px;
@@ -1084,11 +1095,11 @@ a {
     line-height: 24px;
     color: #ffffff;
   }
-  .details-container .details-form-fill-elements {
+  .information-container .information-form-input-items {
     display: block;
     padding: 40px 110px 50px 110px;
   }
-  .details-container .details-form-fill-elements input {
+  .information-container .information-form-input-items input {
     width: 100%;
     margin-bottom: 20px;
     padding-left: 25px;
@@ -1096,112 +1107,112 @@ a {
     font-size: 20px;
     line-height: 24px;
   }
-  .details-container .details-form-fill-elements #input::placeholder {
+  .information-container .information-form-input-items #input::placeholder {
     color: #ffffff;
   }
-  .details-container .details-form-fill-elements input::placeholder {
+  .information-container .information-form-input-items input::placeholder {
     color: rgba(255, 255, 255, 0.5);
   }
-  .details-container .details-form-fill-elements button {
+  .information-container .information-form-input-items button {
     font-size: 20px;
     line-height: 24px;
     padding: 20px 50px 20px 50px;
   }
-  .details-container .details-form-foot {
+  .information-container .information-form-link {
     font-size: 14px;
     line-height: 17px;
     padding: 15px 40px 20px 45px;
     margin: 0px 65px 0px 65px;
   }
-  .details-container .details-info {
+  .information-container .information-container {
     margin-top: 55px;
     padding-left: 20px;
     padding-right: 20px;
   }
-  .details-container .details-info-up {
+  .information-container .information-upper {
     padding-top: 55px;
     display: block;
   }
-  .details-container .details-info-left {
+  .information-container .information-upper-title {
     margin-bottom: 40px;
     font-size: 36px;
     line-height: 44px;
     width: 100%;
   }
-  .details-container .details-info-right {
+  .information-container .information-upper-desc {
     width: 100%;
     word-wrap: break-word;
     margin-bottom: 50px;
   }
-  .details-container .details-cards {
+  .information-container .information-cards {
     display: block;
   }
-  .details-container .details-cards-big {
+  .information-container .information-card-big {
     margin-bottom: 40px;
   }
-  .details-container .big-card-pic {
+  .information-container .big-card-pic {
     width: 100px;
     height: 100px;
     padding: 0;
     margin-bottom: 40px;
   }
-  .details-container .big-card-pic img {
+  .information-container .big-card-pic img {
     width: 100%;
     height: 100%;
   }
-  .details-container .details-cards-small {
+  .information-container .information-cards-small {
     gap: 40px;
   }
-  .details-container .details-cards-small-card {
+  .information-container .information-cards-small-card {
     padding: 40px 40px 30px 40px;
   }
-  .details-container .small-card-pic img {
+  .information-container .small-card-pic img {
     width: 69px;
     height: 69px;
   }
-  .details-container .small-card-desc {
+  .information-container .small-card-desc {
     padding-top: 40px;
     padding-bottom: 20px;
     font-size: 20px;
     line-height: 24px;
   }
-  .vaccine-registration .form-article {
+  .vaccine-registration .form-wrapper {
     padding: 40px 60px 50px 60px;
   }
-  .vaccine-registration .form-article-elements {
+  .vaccine-registration .form-wrapper-elements {
     display: block;
     position: static;
   }
-  .vaccine-registration .form-article-up {
+  .vaccine-registration .form-title {
     text-align: left;
     font-size: 36px;
     line-height: 44px;
     padding-bottom: 0;
   }
-  .vaccine-registration .form-article-mid {
+  .vaccine-registration .form-img-wrapper {
     padding-left: 20px;
     padding-top: 65px;
     position: relative;
   }
-  .vaccine-registration .form-article-down {
+  .vaccine-registration .form-input-wrapper {
     width: 100%;
     margin-top: 70px;
   }
-  .vaccine-registration .form-article-down label {
+  .vaccine-registration .form-input-wrapper label {
     font-size: 20px;
     line-height: 24px;
   }
-  .vaccine-registration .form-article-down input::placeholder {
+  .vaccine-registration .form-input-wrapper input::placeholder {
     font-size: 20px;
     line-height: 24px;
   }
-  .vaccine-registration .form-article .form-article-down button {
+  .vaccine-registration .form-wrapper .form-input-wrapper button {
     font-size: 20px;
   }
-  .symptoms-container .symptoms-upper-text {
+  .symptoms-container .symptoms-title-container {
     padding: 40px 188px 40px 188px;
   }
-  .symptoms-container .symptoms-upper-text p {
+  .symptoms-container .symptoms-title-container p {
     margin-bottom: 10px;
     font-size: 20px;
     line-height: 24px;
@@ -1210,48 +1221,48 @@ a {
     font-size: 36px;
     line-height: 44px;
   }
-  .symptoms-container .symptoms-lower-text {
+  .symptoms-container .symptoms-desc {
     padding: 0px 107px 60px 108px;
     font-size: 18px;
     line-height: 22px;
   }
-  .symptoms-container .symptoms-man-img {
+  .symptoms-container .symptoms-img-container {
     width: 100%;
     height: 343px;
     display: flex;
     justify-content: center;
   }
-  .symptoms-container .symptoms-virus-images {
+  .symptoms-container .symptoms-items {
     padding-top: 30px;
   }
-  .symptoms-container .symptoms-box {
+  .symptoms-container .symptoms-item {
     position: relative;
     padding: 12px 15px 11px 36px;
     font-size: 18px;
     line-height: 22px;
   }
-  .symptoms-container .symptoms-box img {
+  .symptoms-container .symptoms-item img {
     position: absolute;
     top: -7px;
     left: -33px;
     width: 65px;
     height: 65px;
   }
-  .symptoms-container .upper-symptoms-virus-images {
+  .symptoms-container .upper-symptoms-items {
     margin: 0 50px 0 154px;
     padding-bottom: 40px;
   }
-  .symptoms-container .mid-symptoms-virus-images {
+  .symptoms-container .mid-symptoms-items {
     margin: 0 20px 0 80px;
     padding-bottom: 40px;
   }
-  .symptoms-container .lower-symptoms-virus-images {
+  .symptoms-container .lower-symptoms-items {
     margin: 0 10px 0 43px;
   }
   .testimonials {
     padding-bottom: 130px;
   }
-  .testimonials .testimonials-upper {
+  .testimonials .testimonials-title {
     padding: 46px 148px 40px 148px;
     margin-bottom: 0;
   }
@@ -1259,7 +1270,7 @@ a {
     font-size: 20px;
     line-height: 24px;
   }
-  .testimonials #patients-think {
+  .testimonials .testimonial-title {
     font-size: 36px;
     line-height: 44px;
   }
@@ -1268,14 +1279,14 @@ a {
     font-size: 18px;
     line-height: 22px;
   }
-  .testimonials .back-image {
+  .testimonials .vaccine-bottle-img-container {
     display: flex;
     flex-direction: column;
     gap: 0;
     top: 267px;
     left: 300px;
   }
-  .testimonials .back-image img {
+  .testimonials .vaccine-bottle-img-container img {
     width: 173px;
     height: 283px;
   }
@@ -1294,31 +1305,31 @@ a {
   .testimonials .individual-testimonial-card {
     padding: 30px 33px 44px 34px;
   }
-  .footer .upperdiv {
+  .footer .quote-container {
     padding: 16px 48px 56px 62px;
     top: -75px;
     left: 54px;
     right: 54px;
   }
-  .footer .upper-top-quote {
+  .footer .quote-title {
     font-size: 36px;
     line-height: 44px;
   }
-  .footer .upper-top-desc {
+  .footer .quote-desc {
     font-size: 20px;
     line-height: 24px;
   }
-  .footer .upper-bottom input {
+  .footer .input-container input {
     padding: 29px 0px 29px 40px;
   }
-  .footer .lowerdiv {
+  .footer .footer-nav-container {
     display: flex;
     flex-direction: column;
     gap: 40px;
     align-items: flex-start;
     padding: 270px 0px 50px 50px;
   }
-  .footer .lowerdiv img {
+  .footer .footer-nav-container img {
     width: 200px;
   }
   .footer .footer-nav-bar {
@@ -1419,41 +1430,41 @@ a {
     line-height: 17px;
     color: #ffffff;
   }
-  .container .right-hero {
+  .container .hero-right-container {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .container .parent-pic {
+  .container .corona-vaccine-img {
     width: 306px;
     height: 309px;
     padding: 0;
   }
-  .container .parent-pic img {
+  .container .corona-vaccine-img img {
     width: 100%;
     height: 100%;
   }
-  .container .child-left {
+  .container .doctor-img {
     width: 50px;
     height: 50px;
     top: 130px;
     left: -25px;
   }
-  .container .child-left img {
+  .container .doctor-img img {
     height: 100%;
     width: 100%;
   }
-  .container .child-right {
+  .container .corona-virus-img {
     width: 50px;
     height: 50px;
     top: 130px;
     right: -25px;
   }
-  .container .child-right img {
+  .container .corona-virus-img img {
     height: 100%;
     width: 100%;
   }
-  .container .child-bottom {
+  .container .specialist-container {
     gap: 10px;
     padding: 15px;
     width: 238px;
@@ -1461,37 +1472,31 @@ a {
     top: 275px;
     left: -25px;
   }
-  .container .doc-images {
+  .container .specialist-img {
     width: 38.8px;
     height: 38.8px;
   }
-  .container .doc-images img {
+  .container .specialist-img img {
     width: 100%;
     height: 100%;
   }
-  .container .doc-info {
+  .container .specialist-info {
     width: 78px;
     height: 34px;
   }
-  .container .doc-info img {
-    width: 100%;
-    height: 100%;
-  }
-  .container .article {
+
+  .container .schedule-your-vaccination {
     margin-top: 80px;
   }
-  .container .upper-article {
+  .container .schedule-your-vaccination-title-wrapper {
     margin-bottom: 20px;
   }
-  .container .article-img {
+  .container .title-img {
     width: 30px;
     height: 30px;
   }
-  .container .article-img img {
-    width: 100%;
-    height: 100%;
-  }
-  .container .article-writing {
+
+  .container .title {
     margin-bottom: 20px;
     font-style: normal;
     font-weight: 700;
@@ -1500,41 +1505,41 @@ a {
     color: #ffffff;
     margin: 0;
   }
-  .container .lower-article {
+  .container .schedule-your-vaccination-item-wrapper {
     padding: 10px 90px 10px 10px;
   }
-  .container .article-details {
+  .container .schedule-your-vaccination-item {
     display: block;
   }
-  .container .individual-article {
+  .container .item {
     margin-bottom: 15px;
   }
-  .container .individual-article .article-pic {
+  .container .item .item-pic {
     height: 30px;
     width: 30px;
   }
-  .container .article-pic img {
+  .container .item-pic img {
     width: 100%;
     height: 100%;
   }
-  .container .upper-article-info {
+  .container .item-title {
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
     color: rgba(255, 255, 255, 0.5);
   }
-  .container .lower-article-info {
+  .container .item-desc {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
     color: #ffffff;
   }
-  .container .article-submit {
+  .container .submit {
     margin-top: 20px;
   }
-  .container .article-submit button {
+  .container .submit button {
     width: 150px;
     height: 50px;
     background: #17c2ec;
@@ -1569,69 +1574,71 @@ a {
     width: 72px;
     height: 15px;
   }
-  .details-container {
+  .information-container {
     padding: 85px 40px 40px 35px;
   }
-  .details-container .details-form {
+  .information-container .information-form {
     padding-bottom: 30px;
   }
-  .details-container .details-form-title {
+  .information-container .information-form-title {
     display: flex;
     justify-content: center;
     padding: 15px 30px 15px 30px;
     font-size: 10px;
     line-height: 12px;
   }
-  .details-container .details-form-fill-elements {
+  .information-container .information-form-input-items {
     display: block;
     padding: 20px 10px 50px 10px;
   }
-  .details-container .details-form-fill-elements input {
+  .information-container .information-form-input-items input {
     width: 100%;
     margin-bottom: 20px;
     padding: 15px 0px 15px 20px;
     font-size: 12px;
     line-height: 15px;
   }
-  .details-container .details-form-fill-elements #input1::placeholder {
+  .information-container
+    .information-form-input-items
+    .blue-border::placeholder {
     font-size: 12px;
     line-height: 15px;
   }
-  .details-container .details-form-fill-elements button {
+  .information-container .information-form-input-items button {
     padding: 15px 50px 15px 50px;
     font-size: 14px;
     line-height: 17px;
   }
-  .details-container .details-form-foot {
+  .information-container .information-form-link {
     padding: 15px 15px 15px 15px;
     margin: 0px 12px 0px 13px;
     font-size: 10px;
     line-height: 12px;
     text-align: center;
   }
-  .details-container .details-info {
+  .information-container .information-container {
     margin-top: 30px;
     padding: 0;
   }
-  .details-container .details-info-up {
+  .information-container .information-upper {
     padding-top: 40px;
     display: block;
   }
-  .details-container .details-info-left {
+  .information-container .information-upper-title {
     margin-bottom: 20px;
     font-size: 24px;
     line-height: 29px;
   }
-  .details-container .details-info-right {
+  .information-container .information-upper-desc {
     text-align: left;
     margin-bottom: 40px;
     font-size: 14px;
     line-height: 17px;
   }
-  .details-container .details-cards {
+  .information-container .information-cards {
     display: block;
   }
-  .details-container .details-cards-big {
+  .information-container .information-card-big {
     padding: 20px 20px 30px 20px;
     font-size: 14px;
     line-height: 17px;
@@ -1639,76 +1646,74 @@ a {
     border-radius: 20px 80px 20px 20px;
     width: 100%;
   }
-  .details-container .big-card-pic {
+  .information-container .big-card-pic {
     width: 50px;
     height: 50px;
     padding: 0;
     margin-bottom: 20px;
   }
-  .details-container .big-card-pic img {
+  .information-container .big-card-pic img {
     width: 100%;
     height: 100%;
   }
-  .details-container .big-card-name {
+  .information-container .big-card-title {
     font-size: 14px;
     line-height: 17px;
     padding-bottom: 20px;
   }
-  .details-container .big-card-desc {
+  .information-container .big-card-desc {
     font-size: 12px;
     line-height: 15px;
     padding-bottom: 25px;
   }
-  .details-container .big-card-link {
+  .information-container .big-card-link {
     font-size: 12px;
     line-height: 15px;
   }
-  .details-container .big-card-link img {
+  .information-container .big-card-link img {
     height: 20px;
     width: 20px;
   }
-  .details-container .details-cards-small {
+  .information-container .information-cards-small {
     display: block;
   }
-  .details-container .details-cards-small-card {
+  .information-container .information-cards-small-card {
     width: 188px;
     margin-top: 30px;
     padding: 20px;
     border-radius: 20px;
   }
-  .details-container .small-card-pic {
+  .information-container .small-card-pic {
     width: 50px;
     height: 50px;
   }
-  .details-container .small-card-pic img {
+  .information-container .small-card-pic img {
     width: 100%;
     height: 100%;
   }
-  .details-container .small-card-desc {
+  .information-container .small-card-desc {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 14px;
     line-height: 17px;
   }
-  .details-container .small-card-link {
+  .information-container .small-card-link {
     font-size: 14px;
     line-height: 17px;
   }
-  .details-container .small-card-link img {
+  .information-container .small-card-link img {
     width: 20px;
     height: 20px;
   }
-  .details-container #second-link {
-    padding-top: 20px;
-  }
-  .vaccine-registration .form-article {
+
+  .vaccine-registration .form-wrapper {
     padding: 35px 35px 40px 35px;
   }
-  .vaccine-registration .form-article-elements {
+  .vaccine-registration .form-wrapper-elements {
     display: block;
     position: static;
   }
-  .vaccine-registration .form-article-up {
+  .vaccine-registration .form-title {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1717,14 +1722,14 @@ a {
     font-size: 24px;
     line-height: 29px;
   }
-  .vaccine-registration .form-article-mid {
+  .vaccine-registration .form-img-wrapper {
     padding-top: 40px;
     padding-left: 0;
     position: relative;
     display: flex;
     justify-content: center;
   }
-  .vaccine-registration .form-picture-back {
+  .vaccine-registration .form-img-container {
     width: 289px;
     height: 418px;
   }
@@ -1738,12 +1743,12 @@ a {
     width: 100%;
     height: 100%;
   }
-  .vaccine-registration .form-picture-front-word {
+  .vaccine-registration .img-title {
     top: 30px;
     left: 90px;
   }
 
-  .form-picture-front-view a {
+  .img-button a {
     border-radius: 10px;
     background: rgba(196, 196, 196, 0.25);
     color: white;
@@ -1755,61 +1760,61 @@ a {
     font-weight: 700;
     line-height: normal;
   }
-  .vaccine-registration .form-picture-front-word p {
+  .vaccine-registration .img-title p {
     font-size: 14px;
     margin: 0;
   }
-  .vaccine-registration .form-picture-front {
+  .vaccine-registration .form-img {
     width: 289px;
     height: 365px;
     left: 0;
     top: 53px;
   }
-  .vaccine-registration .form-picture-front img {
+  .vaccine-registration .form-img img {
     width: 100%;
     height: 100%;
   }
-  .vaccine-registration .form-picture-front-view {
+  .vaccine-registration .img-button {
     width: 200px;
     height: 50px;
     left: 37px;
     top: 318px;
   }
-  .vaccine-registration .form-picture-front-view img {
+  .vaccine-registration .img-button img {
     width: 100%;
     height: 100%;
   }
-  .vaccine-registration .form-picture-front-virus {
+  .vaccine-registration .form-img-virus {
     width: 74px;
     height: 72px;
     left: -15px;
     top: -20px;
   }
-  .vaccine-registration .form-picture-front-virus img {
+  .vaccine-registration .form-img-virus img {
     width: 100%;
     height: 100%;
   }
-  .vaccine-registration .form-article-down {
+  .vaccine-registration .form-input-wrapper {
     width: 100%;
     margin-top: 40px;
   }
-  .vaccine-registration .form-article-down label {
+  .vaccine-registration .form-input-wrapper label {
     font-size: 14px;
     line-height: 17px;
   }
-  .vaccine-registration .form-article-down input {
+  .vaccine-registration .form-input-wrapper input {
     padding: 15px 0 15px 20px;
     margin-bottom: 20px;
   }
-  .vaccine-registration .form-article-down input::placeholder {
+  .vaccine-registration .form-input-wrapper input::placeholder {
     font-size: 14px;
     line-height: 17px;
   }
-  .vaccine-registration .form-article-down p {
+  .vaccine-registration .form-input-wrapper p {
     font-size: 14px;
     line-height: 17px;
   }
-  .vaccine-registration .form-article-down button {
+  .vaccine-registration .form-input-wrapper button {
     font-size: 20px;
   }
   .vaccine-registration .phone-field {
@@ -1830,22 +1835,22 @@ a {
     padding-left: 120px;
     width: 100%;
   }
-  .vaccine-registration .form-article-down button {
+  .vaccine-registration .form-input-wrapper button {
     padding: 17px 125px;
     font-size: 14px;
     line-height: 17px;
   }
-  .vaccine-registration .form-foot {
+  .vaccine-registration .form-bottom-links {
     gap: 20px;
   }
-  .vaccine-registration .form-foot p {
+  .vaccine-registration .form-bottom-links p {
     font-size: 14px;
     line-height: 17px;
   }
-  .symptoms-container .symptoms-upper-text {
+  .symptoms-container .symptoms-title-container {
     padding: 25px 57px 10px 57px;
   }
-  .symptoms-container .symptoms-upper-text p {
+  .symptoms-container .symptoms-title-container p {
     margin-bottom: 10px;
     font-size: 12px;
     line-height: 15px;
@@ -1854,49 +1859,49 @@ a {
     font-size: 24px;
     line-height: 30px;
   }
-  .symptoms-container .symptoms-lower-text {
+  .symptoms-container .symptoms-desc {
     padding: 0px 40px 30px 40px;
     font-size: 12px;
     line-height: 15px;
   }
-  .symptoms-container .symptoms-man-img {
+  .symptoms-container .symptoms-img-container {
     width: 100%;
     height: 167px;
     display: flex;
     justify-content: center;
   }
-  .symptoms-container .symptoms-virus-images {
+  .symptoms-container .symptoms-items {
     padding-top: 30px;
   }
-  .symptoms-container .symptoms-box {
+  .symptoms-container .symptoms-item {
     position: relative;
     padding: 5px 5px 5px 17px;
     font-size: 9px;
     line-height: 11px;
     border-radius: 5px;
   }
-  .symptoms-container .symptoms-box img {
+  .symptoms-container .symptoms-item img {
     position: absolute;
     top: -4px;
     left: -16px;
     width: 32px;
     height: 32px;
   }
-  .symptoms-container .upper-symptoms-virus-images {
+  .symptoms-container .upper-symptoms-items {
     margin: 0 20px 0 60px;
     padding-bottom: 20px;
   }
-  .symptoms-container .mid-symptoms-virus-images {
+  .symptoms-container .mid-symptoms-items {
     margin: 0 15px 0 40px;
     padding-bottom: 20px;
   }
-  .symptoms-container .lower-symptoms-virus-images {
+  .symptoms-container .lower-symptoms-items {
     margin: 0 30px 0 20px;
   }
   .testimonials {
     padding-bottom: 130px;
   }
-  .testimonials .testimonials-upper {
+  .testimonials .testimonials-title {
     padding: 30px 30px 10px 30px;
     margin-bottom: 0;
   }
@@ -1904,7 +1909,7 @@ a {
     font-size: 14px;
     line-height: 17px;
   }
-  .testimonials #patients-think {
+  .testimonials .testimonial-title {
     font-size: 24px;
     line-height: 29px;
   }
@@ -1913,11 +1918,11 @@ a {
     font-size: 12px;
     line-height: 15px;
   }
-  .testimonials .back-image {
+  .testimonials .vaccine-bottle-img-container {
     top: 326px;
     left: 292px;
   }
-  .testimonials .back-image img {
+  .testimonials .vaccine-bottle-img-container img {
     width: 124px;
     height: 200px;
   }
@@ -1939,7 +1944,7 @@ a {
     font-size: 14px;
     line-height: 16px;
   }
-  .testimonials .patient-add {
+  .testimonials .patient-location {
     font-size: 10px;
     line-height: 12px;
   }
@@ -1950,48 +1955,48 @@ a {
   .testimonials .individual-testimonial-card {
     padding: 25px 25px 30px 25px;
   }
-  .testimonials .patient-info {
+  .testimonials .patient-container {
     margin-bottom: 30px;
   }
-  .footer .upperdiv {
+  .footer .quote-container {
     padding: 16px 34px 30px 34px;
     top: -75px;
     left: 54px;
     right: 54px;
     border-radius: 10px;
   }
-  .footer .upper-top-quote {
+  .footer .quote-title {
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 5px;
   }
-  .footer .upper-top-desc {
+  .footer .quote-desc {
     font-size: 10px;
     line-height: 12px;
     margin-bottom: 24px;
   }
-  .footer .upper-bottom input {
+  .footer .input-container input {
     padding: 12px 0px 12px 12px;
   }
-  .footer .upper-bottom input::placeholder {
+  .footer .input-container input::placeholder {
     font-size: 10px;
     line-height: 12px;
   }
-  .footer .footer-send {
+  .footer .icon-img {
     padding: 10px 23px 10px 10px;
   }
-  .footer .footer-send img {
+  .footer .icon-img img {
     width: 23px;
     height: 20px;
   }
-  .footer .lowerdiv {
+  .footer .footer-nav-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: flex-start;
     padding: 133px 0px 30px 35px;
   }
-  .footer .lowerdiv img {
+  .footer .footer-nav-container img {
     width: 140px;
   }
   .footer .footer-nav-bar {
